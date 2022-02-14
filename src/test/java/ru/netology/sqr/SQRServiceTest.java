@@ -29,4 +29,19 @@ class SQRServiceTest {
         int actual = service.sqaNum(500, 1330);
         assertEquals(expected, actual);
     }
+    // вне диапазон
+    @Test
+    void sqrtNotRange() {
+        SQRService service = new SQRService();
+        int expected = 0;
+        int actual = service.sqaNum(16, 99);
+        assertEquals(expected, actual);
+    }
+    @Test
+    void sqrtMaxRange() {
+        SQRService service = new SQRService();
+        int expected = 90;
+        int actual = service.sqaNum(100, 10_000);
+        assertEquals(expected, actual);
+    }
 }

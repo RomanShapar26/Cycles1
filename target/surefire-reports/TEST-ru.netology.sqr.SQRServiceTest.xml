@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.sqr.SQRServiceTest" time="0.031" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.sqr.SQRServiceTest" time="0.091" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\Roma\IdeaProjects\Cykles\target\test-classes;C:\Users\Roma\IdeaProjects\Cykles\target\classes;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Roma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Roma\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Roma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\Roma\IdeaProjects\Cycles\target\test-classes;C:\Users\Roma\IdeaProjects\Cycles\target\classes;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Roma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Roma\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Roma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.13.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Roma\AppData\Local\Temp\surefire10966676367219933185\surefirebooter10333117096406654209.jar C:\Users\Roma\AppData\Local\Temp\surefire10966676367219933185 2022-02-14T09-19-39_344-jvmRun1 surefire17660068833864646953tmp surefire_0383590503421906261tmp"/>
+    <property name="sun.java.command" value="C:\Users\Roma\AppData\Local\Temp\surefire3482444875635666197\surefirebooter14539461779948423319.jar C:\Users\Roma\AppData\Local\Temp\surefire3482444875635666197 2022-02-14T11-13-25_028-jvmRun1 surefire8502494673466248528tmp surefire_08720627823159386902tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Roma\IdeaProjects\Cykles\target\test-classes;C:\Users\Roma\IdeaProjects\Cykles\target\classes;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Roma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Roma\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Roma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Roma\IdeaProjects\Cycles\target\test-classes;C:\Users\Roma\IdeaProjects\Cycles\target\classes;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Roma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Roma\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Roma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Roma\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Roma"/>
     <property name="user.language" value="ru"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2021-10-19"/>
     <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.13.8-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Roma\IdeaProjects\Cykles"/>
+    <property name="basedir" value="C:\Users\Roma\IdeaProjects\Cycles"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Roma\AppData\Local\Temp\surefire10966676367219933185\surefirebooter10333117096406654209.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Roma\AppData\Local\Temp\surefire3482444875635666197\surefirebooter14539461779948423319.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+8"/>
@@ -49,7 +49,7 @@
     <property name="java.io.tmpdir" value="C:\Users\Roma\AppData\Local\Temp\"/>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.version" value="11.0.13"/>
-    <property name="user.dir" value="C:\Users\Roma\IdeaProjects\Cykles"/>
+    <property name="user.dir" value="C:\Users\Roma\IdeaProjects\Cycles"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,7 +61,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="sqrtCeilMoreRangeStart" classname="ru.netology.sqr.SQRServiceTest" time="0.031"/>
-  <testcase name="sqrtCeilMinRangeStart" classname="ru.netology.sqr.SQRServiceTest" time="0"/>
-  <testcase name="sqaNum" classname="ru.netology.sqr.SQRServiceTest" time="0"/>
+  <testcase name="sqrtNotRange" classname="ru.netology.sqr.SQRServiceTest" time="0.057"/>
+  <testcase name="sqrtCeilMoreRangeStart" classname="ru.netology.sqr.SQRServiceTest" time="0"/>
+  <testcase name="sqrtCeilMinRangeStart" classname="ru.netology.sqr.SQRServiceTest" time="0.001"/>
+  <testcase name="sqaNum" classname="ru.netology.sqr.SQRServiceTest" time="0.002"/>
+  <testcase name="sqrtMaxRange" classname="ru.netology.sqr.SQRServiceTest" time="0.003"/>
 </testsuite>
